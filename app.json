@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Golf Club",
+    "slug": "applgc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 4,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appIcon/logo.png",
+        "backgroundColor": "#ffffff"
+      }
+
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "enabled": true,
+      "url": "https://u.expo.dev/2c646010-69e2-4b00-84d7-541f2d2c357b"
+    }
+  }
+}
